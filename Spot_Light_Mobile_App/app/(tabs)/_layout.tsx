@@ -10,7 +10,7 @@ const TabLayout = () => {
                 tabBarShowLabel: false,
                 headerShown: false,
                 tabBarActiveTintColor: COLORS.primary,
-                tabBarInactiveTintColor: COLORS.gray,
+                tabBarInactiveTintColor: COLORS.grey,
                 tabBarStyle:{
                     backgroundColor: '#000',
                     borderTopWidth: 0,
