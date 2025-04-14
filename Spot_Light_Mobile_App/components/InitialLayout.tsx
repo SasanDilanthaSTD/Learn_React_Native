@@ -1,4 +1,3 @@
-import { View, Text } from 'react-native'
 import React, { useEffect } from 'react'
 import { useAuth } from '@clerk/clerk-expo'
 import { Stack, useRouter, useSegments } from 'expo-router';
@@ -24,5 +23,5 @@ export default function InitialLayout() {
 
     if (!isLoaded) return null
 
-    return <Stack screenOptions={{headerShown: false}} />
+    return <Stack screenOptions={{headerShown: false, statusBarBackgroundColor: 'black'}} />
 }
