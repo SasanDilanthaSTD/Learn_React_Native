@@ -10,9 +10,10 @@ export default function InitialLayout() {
 
     useEffect(() =>{
         if (!isLoaded) return;
-        //console.log("segments : ", segments)
+        // console.log("segments : ", segments)
         let seg = "/" + segments[0] + "/" + segments[1];
-        //console.log("segments : ", seg)
+        // console.log("segments : ", seg)
+        // console.log("login status : ", isSignedIn)
 
         const inAuthScreen = seg === "/(auth)/login";
 

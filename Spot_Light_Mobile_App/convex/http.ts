@@ -5,6 +5,10 @@ import { api } from "./_generated/api";
 
 const http = httpRouter();
 
+// 1 - we need to make sure that the webhook event is coming from Clerk
+// 2 -  if so, we'll listen for the user.create event
+// 3 - we'll save the user to the databse
+
 http.route({
     path: "/clerk-webhook",
     method: "POST",

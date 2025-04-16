@@ -1,5 +1,5 @@
 
-import { tokenCache } from "@clerk/clerk-expo/dist/token-cache";
+import { tokenCache } from "@/cache";
 import { ClerkLoaded, ClerkProvider, useAuth } from "@clerk/clerk-expo";
 import { ConvexReactClient } from "convex/react";
 import { ConvexProviderWithClerk } from "convex/react-clerk";
